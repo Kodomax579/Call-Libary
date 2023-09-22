@@ -1,6 +1,29 @@
-- To run the Programm you need to Download XAMPP
+- Click on Libary_Start to start the Libary.
 
-Download: https://www.apachefriends.org/de/index.html
+- To get the ADMIN commands. You have to Click on the Get_ADMIN.bat  
+    - If you start the file, you have to go on the browser and search "localholhost/"
+    -Then you click on phpMyAdmin, this is above the header.
+    -Now click on your database, in this case it is libary
+    -There you click on the table customer and click edit from the user who is allowed to get ADMIN
+    -After you clicked the edit button you have to cahnge the "position" to 2 and accept it. 
+    -After you get the ADMIN it's nessesary to click the "STOP_XAMPP.bat" file.
 
-- To start the Libary click on "bibStart"
-- If you didn't start Apache and MySQL yet. The Programm ask for the path and start MySQL and Apache for you.
+-How To use the Libary:
+    -customer/Admin/ADMIN
+        -Login:
+            -you have to create an account. then you can login
+            -if you want to be the ADMIN, because you're the owner, use the discription above
+        -Book table:
+            -you can doubble click on the books in the table to see details and lend the book
+        -Return book:
+            -if you clicked on you return, select the book and click on return
+        -Edit profile:
+            -behind the IBAN is a pattern. 
+    -Admin
+        -add books
+            -Admin and ADMIN are the only one who is allowed to insert new books
+        -Profiles
+            -you can double click the profiles to see details and delete customers who aren't Admins or ADMINS
+    -ADMINS
+        -Profiles
+            -the ADMIN is the only one who can get the Admin status or take the Admin status

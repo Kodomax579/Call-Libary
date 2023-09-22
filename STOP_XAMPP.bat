@@ -1,0 +1,2 @@
+XAMPP\mysql_stop
+XAMPP\apache_stop
